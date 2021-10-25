@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+} 
+body{
+    background-color: rgb(241, 234, 203);
+    font-family:'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    
+    
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.menuOptions{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    list-style: none;   
+    justify-content: space-around;
+    align-items: center;
+    margin-left:auto;
+
+    
+}
+.menuOptions li a{
+    font-size: 25px;
+    font-weight:bolder;
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    
+}
+.menuOptions a:hover{
+    color:#FF7F76;
+    
+}
+.row{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+
+.text{
+    width: 50%;
+   
+    
+}
+.image{
+    width: 50%;
+
+}
+.image img{
+    width:100%;
+    height: 100%;
+    margin-left: -100px;
+
+}
+.text h1, h2, .button{
+    margin-left: 140px
+}
+.text h1{
+    width: 100%;
+    height:30%;
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 100px;
+    margin-top: 200px;
+    background:-webkit-linear-gradient(#FFB076, #FF7F76);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color:transparent;
+     filter: drop-shadow(1px 1px 1px rgb(243, 0, 0));
+     
+}
+.text h2{
+    width: 70%;
+    height: 117px;
+    font-size: 40px;
+    font-weight:medium;
+    margin-top: -100px;
+    color: gray;
+
+}
+.button{
+    
+    margin-top: 25px;
+    background: linear-gradient(to right,#FF7F76, #FFB076);
+    width: 30%;
+    height: 10%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+}
+
+
+.button a{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    
+   
+}
+
+.circle{
+    width:400px;
+    height:430px;
+    border-radius: 50%;
+    background-color: #2C424F;
+    margin-left: 650px;
+    margin-top: -350px;
+    
+}
+.human{
+    margin-top: -400px;
+    margin-left: 300px;
+    position: absolute;
+    z-index: 2;
+}
+.moon{
+    margin-top:-600px;
+}
+
